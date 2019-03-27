@@ -1,4 +1,9 @@
-type User {
+type Report {
   id: ID! @unique
-  name: String!
+  type: Int!
+  title: String
+  place: String!
+  dateTime: DateTime!
+  summary: Int!
+  detail: String
 }
