@@ -5,5 +5,5 @@ type Report {
   place: String!
   dateTime: DateTime!
   summary: Int!
-  detail: String
+  detail: Json
 }
